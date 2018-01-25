@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">@color/colorSecondary</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimaryLight">#60489d</color>
+    <color name="colorPrimary">#42326C</color>
+    <color name="colorPrimaryDark">#201834</color>
+    <color name="colorPrimaryDarkTransperant">#50000036</color>
+    <color name="colorPrimaryAccent">#FD9032</color>
+
+    <color name="colorSecondaryLight">#ffc162</color>
+    <color name="colorSecondary">#fd9032</color>
+    <color name="colorSecondaryDark">#c46100</color>
+
+    <color name="style_color_primary">#2d5d82</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#01bcd5</color>
+
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+
+    <color name="text_like_counter">#2b5a83</color>
+    <color name="text_header">#bfffffff</color>
+
+    <color name="bg_comments">#ffffff</color>
+    <color name="button_grey">#797979</color>
+    <color name="hint_grey">#C3C3C3</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="progress_orange">#F5AA57</color>
+    <color name="progress_skyblue">#00CDD4</color>
+    <color name="facebook_bg">#3A579A</color>
+    <color name="twitter_bg">#26A6D1</color>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">BaseMVP</string>
+
+    <!-- Message -->
+    <string name="msg_pleasewait">Please wait…</string>
+
+</resources>
