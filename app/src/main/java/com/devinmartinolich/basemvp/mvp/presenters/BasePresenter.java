@@ -1,6 +1,6 @@
 package com.devinmartinolich.basemvp.mvp.presenters;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.devinmartinolich.basemvp.mvp.controllers.BaseController;
 import com.devinmartinolich.basemvp.framework.utils.AppLog;

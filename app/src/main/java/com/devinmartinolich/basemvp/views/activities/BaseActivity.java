@@ -10,11 +10,11 @@ import android.content.res.Resources;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
@@ -155,7 +155,7 @@ public class BaseActivity extends AppCompatActivity implements MvpView
     }
 
     @Override
-    public void onAttachFragment(android.support.v4.app.Fragment fragment)
+    public void onAttachFragment(androidx.fragment.app.Fragment fragment)
     {
         super.onAttachFragment(fragment);
         AppLog.d(TAG, getClass().getSimpleName() + ": onAttachFragment() called with: fragment = [" + fragment + "]");
