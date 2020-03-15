@@ -26,9 +26,9 @@ public abstract class BasePresenter implements MvpPresenter
 
     /**
      * Name : BasePresenter setController
-     * <br> Created by 1549 on 12/6/2017
-     * <br> Modified by 1549 on 12/6/2017
-     * <br> Purpose :  This method will initialize the controller
+     * Created by devin on 12/6/2017
+     * Modified by devin on 12/6/2017
+     * Purpose :  This method will initialize the controller
      *
      * @param aBaseController : Object of controller.
      */
@@ -49,9 +49,9 @@ public abstract class BasePresenter implements MvpPresenter
 
     /**
      * Name : BasePresenter registerBus
-     * <br> Created by 1549 on 12/6/2017
-     * <br> Modified by 1549 on 12/6/2017
-     * <br> Purpose :
+     * Created by devin on 12/6/2017
+     * Modified by devin on 12/6/2017
+     * Purpose :
      * This method will be called by the {@link com.devinmartinolich.basemvp.views.fragments.BaseFragment#onPause()} ()}
      * or by the {@link com.devinmartinolich.basemvp.views.activities.BaseActivity#onPause()}
      */
@@ -64,9 +64,9 @@ public abstract class BasePresenter implements MvpPresenter
 
     /**
      * Name : BasePresenter unRegisterBus
-     * <br> Created by 1549 on 12/6/2017
-     * <br> Modified by 1549 on 12/6/2017
-     * <br> Purpose :
+     * Created by devin on 12/6/2017
+     * Modified by devin on 12/6/2017
+     * Purpose :
      * This method will be called by the {@link com.devinmartinolich.basemvp.views.fragments.BaseFragment#onStop()}
      * or by the {@link com.devinmartinolich.basemvp.views.activities.BaseActivity#onStop()} method.
      */
@@ -84,9 +84,9 @@ public abstract class BasePresenter implements MvpPresenter
 
     /**
      * Name : BasePresenter setView
-     * <br> Created by 1549 on 12/6/2017
-     * <br> Modified by 1549 on 12/6/2017
-     * <br> Purpose : This method is used to attach the view of activity/fragment to base presenter.
+     * Created by devin on 12/6/2017
+     * Modified by devin on 12/6/2017
+     * Purpose : This method is used to attach the view of activity/fragment to base presenter.
      *
      * @param aMvpView : Object of view
      */
@@ -97,9 +97,9 @@ public abstract class BasePresenter implements MvpPresenter
 
     /**
      * Name : BasePresenter removeStickyEvent
-     * <br> Created by 1549 on 11/8/2017
-     * <br> Modified by 1549 on 11/8/2017
-     * <br> Purpose : This method is used to remove any StickEvent which is in queue of eventbus.
+     * Created by devin on 11/8/2017
+     * Modified by devin on 11/8/2017
+     * Purpose : This method is used to remove any StickEvent which is in queue of eventbus.
      *
      * @param aT  : class of event object
      * @param <T> : object of event which we removed.
@@ -131,9 +131,9 @@ public abstract class BasePresenter implements MvpPresenter
 
     /**
      * Name : BasePresenter
-     * <br> Created by 1549 on 12/6/2017
-     * <br> Modified by 1549 on 12/6/2017
-     * <br> Purpose :  Get class name from Generic class
+     * Created by devin on 12/6/2017
+     * Modified by devin on 12/6/2017
+     * Purpose :  Get class name from Generic class
      *
      * @param <T>
      */

@@ -25,9 +25,9 @@ import com.devinmartinolich.basemvp.framework.utils.network.NetworkRetryCallback
 
 /**
  * Name : BaseFragment
- * <br> Created by devin on 9/14/17.
- * <br> Modified by
- * <br> Purpose :
+ * Created by devin on 9/14/17.
+ * Modified by
+ * Purpose :
  */
 public class BaseFragment extends Fragment implements MvpView
 {
@@ -37,7 +37,7 @@ public class BaseFragment extends Fragment implements MvpView
 
     /**
      * Name : BaseFragment setPresenter
-     * Created by 1549 on 12/6/2017
+     * Created by devin on 12/6/2017
      * Modified by
      * Purpose : This method is used to assign the presenter to the base view.
      *
@@ -50,9 +50,9 @@ public class BaseFragment extends Fragment implements MvpView
 
     /**
      * Name : BaseFragment getCurrentContext
-     *<br> Created by 1549 on 12/6/2017
-     *<br> Modified by 1549 on 12/6/2017
-     *<br> Purpose :  : This method is used to get current context of the application.
+     * Created by devin on 12/6/2017
+     * Modified by devin on 12/6/2017
+     * Purpose : This method is used to get current context of the application.
      *
      * @return : {@link Context} of current fragment/activity.
      */

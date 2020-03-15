@@ -403,7 +403,7 @@ public class FileUtils
      * To create file in the SD card. This method
      * creates File with given Content and type and Stored at the
      * location.
-     * <p/>
+     *
      * In this method File content is written as line given in the
      * Parameter. For Each element of the Array New Line is Created in
      * the File and written to the File in New Line.
@@ -585,10 +585,10 @@ public class FileUtils
 
     /**
      * Name : FileUtils readObjectFromFile
-     * <br> Created by 1549 on 12/6/2017
-     * <br> Modified by 1549 on 12/6/2017
-     * <br> Purpose :
-     * <p/>
+     * Created by devin on 12/6/2017
+     * Modified by devin on 12/6/2017
+     * Purpose :
+     *
      * To read the Object from File.
      *
      * @returns Object
@@ -622,8 +622,8 @@ public class FileUtils
 
     /**
      * Name : FileUtils readFileAsSring
-     * <br> Created by 1549 on 12/6/2017
-     * <br> Modified by 1549 on 12/6/2017
+     * Created by devin on 12/6/2017
+     * Modified by devin on 12/6/2017
      *
      * @MethodName readFileAsSring
      * @returns String

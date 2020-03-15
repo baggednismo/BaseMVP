@@ -49,7 +49,7 @@ public class AssetUtils
      * This method is used to get the list of files from the asset
      * folder from the given directory. In this method, if directory is
      * null then List will be from Direct to Asset Folder.
-     * <p/>
+     *
      * Here to get all the Files from the Assset Root Folder pass the
      * second paramter as NULL.
      *

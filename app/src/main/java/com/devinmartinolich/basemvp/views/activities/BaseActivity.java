@@ -163,9 +163,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : hideSoftKeyboard
-     *<br> Created by 1730 on 1/1/2018
-     *<br> Modified by 1730 on 1/1/2018
-     *<br> Purpose : To hide soft keyboard
+     * Created by devin on 1/1/2018
+     * Modified by devin on 1/1/2018
+     * Purpose : To hide soft keyboard
      */
     public void hideSoftKeyboard()
     {
@@ -179,9 +179,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : showSoftKeyboard
-     *<br> Created by 1730 on 1/1/2018
-     *<br> Modified by 1730 on 1/1/2018
-     *<br> Purpose : To show soft keyboard
+     * Created by devin on 1/1/2018
+     * Modified by devin on 1/1/2018
+     * Purpose : To show soft keyboard
      */
     public void showSoftKeyboard()
     {
@@ -195,9 +195,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : showDialog
-     *<br> Created by 1730 on 1/4/2018
-     *<br> Modified by 1730 on 1/4/2018
-     *<br> Purpose : Display dialog for show error or warning
+     * Created by devin on 1/4/2018
+     * Modified by devin on 1/4/2018
+     * Purpose : Display dialog for show error or warning
      * @param mContext
      * @param sMessage
      * @param mDialogListener
@@ -228,9 +228,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : doKeepDialog
-     *<br> Created by 1730 on 1/4/2018
-     *<br> Modified by 1730 on 1/4/2018
-     *<br> Purpose : Keep dialog display when screen is rotating
+     * Created by devin on 1/4/2018
+     * Modified by devin on 1/4/2018
+     * Purpose : Keep dialog display when screen is rotating
      * @param dialog
      */
     private void doKeepDialog(Dialog dialog)
@@ -244,9 +244,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : showSnackBarWithOK
-     *<br> Created by 1730 on 1/4/2018
-     *<br> Modified by 1730 on 1/4/2018
-     *<br> Purpose : Display snackbar with one action button
+     * Created by devin on 1/4/2018
+     * Modified by devin on 1/4/2018
+     * Purpose : Display snackbar with one action button
      * @param view
      * @param message
      * @param time
@@ -265,9 +265,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : showSnackBarWithOneActionButton
-     *<br> Created by 1730 on 1/4/2018
-     *<br> Modified by 1730 on 1/4/2018
-     *<br> Purpose : Display snackbar with one action button and title
+     * Created by devin on 1/4/2018
+     * Modified by devin on 1/4/2018
+     * Purpose : Display snackbar with one action button and title
      * @param view
      * @param message
      * @param time
@@ -284,9 +284,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : showProgressDialog
-     *<br> Created by 1730 on 1/4/2018
-     *<br> Modified by 1730 on 1/4/2018
-     *<br> Purpose : To show progress dialog
+     * Created by devin on 1/4/2018
+     * Modified by devin on 1/4/2018
+     * Purpose : To show progress dialog
      * @param context
      */
     public void showProgressDialog(Context context)
@@ -340,9 +340,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : hideProgressDialog
-     *<br> Created by 1730 on 1/4/2018
-     *<br> Modified by 1730 on 1/4/2018
-     *<br> Purpose : To hide progress dialog
+     * Created by devin on 1/4/2018
+     * Modified by devin on 1/4/2018
+     * Purpose : To hide progress dialog
      */
     public void hideProgressDialog()
     {
@@ -364,9 +364,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : changeViewVisibility
-     *<br> Created by 1730 on 1/1/2018
-     *<br> Modified by 1730 on 1/3/2018
-     *<br> Purpose : To change visibility of multiple views
+     * Created by devin on 1/1/2018
+     * Modified by devin on 1/3/2018
+     * Purpose : To change visibility of multiple views
      * @param visibility
      * @param aViews
      */
@@ -381,9 +381,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : getEdittextValue
-     *<br> Created by 1730 on 1/4/2018
-     *<br> Modified by 1730 on 1/4/2018
-     *<br> Purpose : To get editText value
+     * Created by devin on 1/4/2018
+     * Modified by devin on 1/4/2018
+     * Purpose : To get editText value
      * @param mEditText
      * @return
      */
@@ -394,9 +394,9 @@ public class BaseActivity extends AppCompatActivity implements MvpView
 
     /**
      * Name : validateEditText
-     *<br> Created by 1730 on 1/2/2018
-     *<br> Modified by 1730 on 1/3/2018
-     *<br> Purpose : To validate editText value
+     * Created by devin on 1/2/2018
+     * Modified by devin on 1/3/2018
+     * Purpose : To validate editText value
      * @param mEditText
      * @return
      */
