@@ -90,7 +90,7 @@ public class NetworkUtils
 //                UserSettingModel mUserSettingModel = null;
 //                try
 //                {
-//                    mUserSettingModel = (UserSettingModel) SharedPrefUtils.getUserSettingsModel(LoyalNSaveApplication.getAppInstance(), Constants.SharedPrefName.USER, Constants.PrefKeys.USER_SETTING_DATA, UserSettingModel.class);
+//                    mUserSettingModel = (UserSettingModel) SharedPrefUtils.getUserSettingsModel(Application.getAppInstance(), Constants.SharedPrefName.USER, Constants.PrefKeys.USER_SETTING_DATA, UserSettingModel.class);
 //                }
 //                catch (NullPointerException e) {e.printStackTrace();}
 //
